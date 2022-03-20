@@ -5,7 +5,7 @@ fullnameOverride: future
 scheduler:
   name: scheduler
   image:
-    repository: "paciorek/future-kubernetes"
+    repository: "future"
     tag: 0.5
     pullPolicy: IfNotPresent
     # See https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
