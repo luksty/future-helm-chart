@@ -5,7 +5,7 @@ fullnameOverride: future
 scheduler:
   name: scheduler
   image:
-    repository: "future"
+    repository: "luksty/future-kubernetes"
     tag: 0.5
     pullPolicy: IfNotPresent
     # See https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
@@ -45,7 +45,7 @@ scheduler:
 worker:
   name: worker
   image:
-    repository: "future"
+    repository: "luksty/future-kubernetes"
     tag: 0.5
     pullPolicy: IfNotPresent
     pullSecrets:
