@@ -45,7 +45,7 @@ scheduler:
 worker:
   name: worker
   image:
-    repository: "lukstrfcstreg.azurecr.io/lukstr/production_container_test"
+    repository: "future"
     tag: 0.5
     pullPolicy: IfNotPresent
     pullSecrets:
