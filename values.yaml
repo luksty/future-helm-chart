@@ -50,7 +50,7 @@ worker:
     pullPolicy: IfNotPresent
     pullSecrets:
     #  - name: regcred
-  replicas: 3
+  replicas: 4
   aptPackages: >-
   default_resources:  # overwritten by resource limits if they exist
     cpu: 1
