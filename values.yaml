@@ -6,7 +6,7 @@ scheduler:
   name: scheduler
   image:
     repository: "luksty/future-kubernetes"
-    tag: 0.7
+    tag: 0.8
     pullPolicy: IfNotPresent
     # See https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
     pullSecrets:
@@ -46,7 +46,7 @@ worker:
   name: worker
   image:
     repository: "luksty/future-kubernetes"
-    tag: 0.7
+    tag: 0.8
     pullPolicy: IfNotPresent
     pullSecrets:
     #  - name: regcred
